@@ -1,13 +1,14 @@
 import React from 'react';
 import './Navbar.css';
 import Catpredict from '../assets/Catpredict.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <img src={Catpredict} alt="Logo" />
+          <Link to="/"><img src={Catpredict} alt="Logo" /></Link>
         </div>
         <div className="nav-links">
           <a href="/" className="nav-link">Company</a>

@@ -27,6 +27,7 @@
   
   .logo img {
     cursor: pointer;
+    width: 57%;
   }
   
   .nav-links {
@@ -44,8 +45,7 @@
     padding: 0.7rem 1.5rem;
     background-color: #F7C710; 
     color: #000;
-    border: none;
-    border-radius: 5px;
+    border: 3px solid black;
     cursor: pointer;
     transition: transform 0.3s ease;
     text-decoration: none; 

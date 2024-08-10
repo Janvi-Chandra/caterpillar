@@ -13,7 +13,7 @@
     font-family: 'Univers LT Std 57 Condensed', sans-serif;
     display: flex;
     height: 100vh; 
-    background: url('C:\Users\janvi\caterpillar\src\assets\HeroBackground.png') no-repeat center center;
+    background-image: url('../assets/HeroBackground.png');
   }
   
   .hero-left {
@@ -45,6 +45,7 @@
   
   .get-started-button:hover {
     transform: translateY(-3px);
+    cursor: pointer;
   }
   
   .hero-right {
